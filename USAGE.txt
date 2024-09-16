@@ -1,0 +1,18 @@
+here are the basic instructions to use the face-recognition program:
+
+-h help
+
+--train arg     the flag is to train your images
+                arg = the path to the folder containing the images to train
+
+--validate arg       the flag is to validate your images
+                    arg = the path to the folder containing the images to validate
+
+--test     to test the model on any image you like
+
+-f     USAGE: --test -f arg         arg = path to the image to be tested
+
+-m      choode image training model
+    DEFAULT = [hog]
+    CHOICES = [hog, cnn]
+
